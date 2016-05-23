@@ -4,7 +4,11 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.title == "Home" %}
+        <img src="http://threesixtygiving.org/wp-content/themes/responsive-child/360Giving-logo.png" width="300" alt="360Giving Logo" />
+      {% else %}
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
   </header>
 
   <div class="post-content">

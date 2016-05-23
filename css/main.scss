@@ -22,6 +22,12 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$orange-color:      #ff9222;
+$orange-color-light: lighten($orange-color, 40%);
+
+$footer-background-color: #333;
+$footer-text-color:       #b1b1b1;
+
 // Width of the content area
 $content-width:    800px;
 
@@ -51,3 +57,4 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
