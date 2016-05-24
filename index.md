@@ -23,6 +23,8 @@ The JSON is an array of objects in the following format:
                   storage system",
      "license":"A link to the license information for this dataset. 
                   Should be a valid URL",
+     "license_name":"A human readable title of the license given in 
+                      the license field",
      "publisher": {
         "name":"Name of the organisation publishing this dataset",
         "website":"Should be a valid URL to a website of that publisher",
@@ -42,6 +44,11 @@ The JSON is an array of objects in the following format:
 
 ~~~
 
+## Changelog
+
+**2016-05-24** - Added the `license_name` field
+
+**2016-05-22** - Documentation first created
 
 ## Credits
 This site uses Jekyll and the base Jekyll theme.  
