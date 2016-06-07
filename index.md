@@ -4,10 +4,10 @@ title: Home
 permalink: /
 ---
 
-A list of all known data in the 360Giving format can be found on the website at: [http://www.threesixtygiving.org/get-involved/data/](http://www.threesixtygiving.org/get-involved/data/)
+A list of all known data in the 360Giving format can be found on the website at: [http://www.threesixtygiving.org/data/find-data/](http://www.threesixtygiving.org/data/find-data/)
 
 A JSON feed of this data can be found at the following endpoint: 
-[http://data.threesixtygiving.org/datastore/](http://data.threesixtygiving.org/datastore/)
+[http://data.threesixtygiving.org/data.json](http://data.threesixtygiving.org/data.json)
 
 Requests to the endpoint will return a JSON file that contains a number of records about data sets.
 
@@ -45,6 +45,8 @@ The JSON is an array of objects in the following format:
 ~~~
 
 ## Changelog
+
+**2016-06-07** - Changes links to list of all known data and to the JSON feed.
 
 **2016-05-24** - Added the `license_name` field
 
