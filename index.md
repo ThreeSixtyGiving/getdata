@@ -30,7 +30,9 @@ The JSON is an array of objects in the following format:
         "website":"Should be a valid URL to a website of that publisher",
         "logo":"Should be a valid URL to a logo for that publisher. 
                 You may not necessarily have permission to use this 
-                logo for your own purposes."
+                logo for your own purposes.",
+        "prefix":"The unique 360Giving prefix used by this publisher
+                  to identify the grants they publish."
      },
      "distribution":[ {
         "downloadURL":"A valid URL to directly access the data",
@@ -45,6 +47,8 @@ The JSON is an array of objects in the following format:
 ~~~
 
 ## Changelog
+
+**2016-06-28** - Adds the `prefix` field to the publisher list
 
 **2016-06-07** - Changes links to list of all known data and to the JSON feed.
 
