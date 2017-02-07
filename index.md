@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-A list of all known data in the 360Giving format can be found on the website at: [http://www.threesixtygiving.org/data/find-data/](http://www.threesixtygiving.org/data/find-data/)
+A list of all known data in the 360Giving format can be found on the website at: [http://www.threesixtygiving.org/data/find-data/](http://www.threesixtygiving.org/data/data-registry/)
 
 A JSON feed of this data can be found at the following endpoint: 
 [http://data.threesixtygiving.org/data.json](http://data.threesixtygiving.org/data.json)
