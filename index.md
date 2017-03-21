@@ -25,6 +25,11 @@ The JSON is an array of objects in the following format:
                   Should be a valid URL",
      "license_name":"A human readable title of the license given in 
                       the license field",
+     "first_published":"The date (YYYY-MM-DD) this dataset was first 
+                        recorded as published",
+     "last_modified":"The datetime that this record was last changed.
+                       The change could relate to any of the metadata 
+                       about the dataset", 
      "publisher": {
         "name":"Name of the organisation publishing this dataset",
         "website":"Should be a valid URL to a website of that publisher",
