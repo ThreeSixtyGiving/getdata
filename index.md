@@ -53,9 +53,11 @@ The JSON is an array of objects in the following format:
 
 ## Changelog
 
+**2017-03-27** - Adds the `issued` and `modified` fields
+
 **2016-06-28** - Adds the `prefix` field to the publisher list
 
-**2016-06-07** - Changes links to list of all known data and to the JSON feed.
+**2016-06-07** - Changes links to list of all known data and to the JSON feed
 
 **2016-05-24** - Added the `license_name` field
 
