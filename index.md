@@ -25,6 +25,11 @@ The JSON is an array of objects in the following format:
                   Should be a valid URL",
      "license_name":"A human readable title of the license given in 
                       the license field",
+     "issued":"The date (YYYY-MM-DD) this dataset was first 
+                        recorded as published",
+     "modified":"The datetime that this record was last changed.
+                       The change could relate to any of the metadata 
+                       about the dataset", 
      "publisher": {
         "name":"Name of the organisation publishing this dataset",
         "website":"Should be a valid URL to a website of that publisher",
@@ -48,9 +53,11 @@ The JSON is an array of objects in the following format:
 
 ## Changelog
 
+**2017-03-27** - Adds the `issued` and `modified` fields
+
 **2016-06-28** - Adds the `prefix` field to the publisher list
 
-**2016-06-07** - Changes links to list of all known data and to the JSON feed.
+**2016-06-07** - Changes links to list of all known data and to the JSON feed
 
 **2016-05-24** - Added the `license_name` field
 
