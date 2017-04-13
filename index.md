@@ -51,7 +51,12 @@ The JSON is an array of objects in the following format:
 
 ~~~
 
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The JSON feed found at the endpoint is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 ## Changelog
+
+**2017-04-13** - Adds license information to this page
 
 **2017-03-27** - Adds the `issued` and `modified` fields
 
